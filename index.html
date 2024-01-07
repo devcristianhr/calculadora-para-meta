@@ -3,35 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora para meta</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de meta</title>
 </head>
-<body>
-    <h1>Calculadora para meta</h1>
-    <p>Faça aqui seus calculos, e chegue mais longe com seus objetivos</p>
-    <div>
-        <label for="pretendido">Qual o valor pretendido</label>
-        <input type="number" name="pretendido" id="pretendido" placeholder="Quanto você precisa para a meta?">
-        <input type="button" value=">>>" onclick="clicar()">
-        <div id="valorpretendido"></div>
+<body class="container-fluid bg-dark text-white text-center p-3 col-md-5">
+    <h1>Calculadora de meta</h1><br>
+    <p>Faça aqui seus cálculos, e chegue mais longe com seus objetivos</p><br>
+    <label for="meta" id="metal">Qual é a sua meta?</label>
+    <input type="text" name="meta" id="meta" placeholder="Qual é a sua meta?" ><input type="button" class="btnn" value="Confirmar" onclick="clicar()">
+    <div class="container-fluid bg-info">
+        <div class="row justify-content-center">
+            <div class="col m-2 p-2">
+                <label for="pretendido">Meta</label>
+                <input type="number" name="pretendido" id="pretendido" placeholder="Valor preciso para a meta?" class="form-control">
+                <input class="btn mt-2 col m-2 p-2" type="button" value="Confirmar" onclick="clicar()">
+                <div id="valorpretendido" class="col m-2 p-2"></div>
+            </div>
+            <div class="col m-2 p-2">
+                <label for="">Entradas</label>
+                <input type="number" name="Lucros" id="Lucros" placeholder="Insira valores ganhos aqui!" class="form-control">
+                <input class="btn mt-2 col m-2 p-2" type="button" value="Confirmar" onclick="clicar()">
+                <div id="lucrosaqui" class="col m-2 p-2"></div>
+            </div>
+            <div class="col m-2 p-2">
+                <label for="">Saídas</label>
+                <input type="number" name="Saídas" id="Saídas" placeholder="Insira seus gastos aqui!" class="form-control">
+                <input class="btn mt-2 col m-2 p-2" type="button" value="Confirmar" onclick="clicar()">
+                <div id="gastosaqui" class="col m-2 p-2"></div>
+            </div>
+        </div>
     </div>
-    <div>
-        <label for="">Lucros</label>
-        <input type="number" name="Lucros" id="Lucros" placeholder="Insira seus lucros aqui!">
-        <input type="button" value=">>>" onclick="clicar()">
-        <div id="lucrosaqui"></div>
-    </div>
-    <div>
-        <label for="">Saídas</label>
-        <input type="number" name="Saídas" id="Saídas" placeholder="Insira seus gastos aqui!">
-        <input type="button" value=">>>" onclick="clicar()">
-        <div id="gastosaqui"></div>
-    </div>
-    <div>
-        <h3>Você tem o total dê:</h3>
-        <div id="total"></div><br>
+    <div class="container-fluid bg-info p-2 m-8">
+        <h3>Você tem o total de:</h3>
+        <div id="total" class="col m-2 p-2"></div><br>
         <h3>Para atingir a meta faltam:</h3>
-        <div id="faltam"></div>
-    </div>
+        <div id="faltam" class="col m-2 p-2"></div>
+    </div>  
+    </div><br>
+    <div class="container-fluid bg-info p-4 m-8" id="condicionais"></div>
+
+
     
 </body>
 </html>

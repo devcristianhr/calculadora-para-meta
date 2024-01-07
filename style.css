@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Rubik+Doodle+Shadow&display=swap');
+
+body{
+    margin: 215px;
+}
+body > p{
+    font-size: 37px;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    color: aliceblue;
+}
+body > h1{
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    font-size: 90px;
+    color: aliceblue;
+}
+label{
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 22px;
+    padding: 8px;
+}
+#meta{
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 28px;
+    border-radius: 12px;
+    color: rgb(46, 45, 45);
+}
+#metal{
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 30px;
+    border-radius: 12px;
+    color:aliceblue;
+    padding: 20px;
+    
+}
+
+.btn{
+    border-radius: 15px;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 17px;
+    background: rgb(46, 45, 45);
+    color: aliceblue;
+    align-items: center;
+}
+.btnn{
+    border-radius: 15px;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 28px;
+    background: aliceblue;
+    color:rgb(46, 45, 45);
+    align-items: center;
+    margin: 3px;
+}
+
+.btn:hover{
+    color: rgb(0, 200, 255);
+}
+.btnn:hover{
+    color: rgb(176, 176, 176);
+}
+
+#pretendido{
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'DotGothic16', sans-serif;
+    color: rgb(46, 45, 45);
+    
+}
+
+#Saídas{
+    border-radius: 12px;
+    font-family: 'DotGothic16', sans-serif;
+    color: rgb(46, 45, 45);
+    font-size: 20px;
+}
+#Lucros{
+    border-radius: 12px;
+    font-family: 'DotGothic16', sans-serif;
+    color: rgb(46, 45, 45);
+    font-size: 20px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora para meta</title>
+</head>
+<body>
+    <h1>Calculadora para meta</h1>
+    <p>Faça aqui seus calculos, e chegue mais longe com seus objetivos</p>
+    <div>
+        <label for="pretendido">Qual o valor pretendido</label>
+        <input type="number" name="pretendido" id="pretendido" placeholder="Quanto você precisa para a meta?">
+        <input type="button" value=">>>" onclick="clicar()">
+        <div id="valorpretendido"></div>
+    </div>
+    <div>
+        <label for="">Lucros</label>
+        <input type="number" name="Lucros" id="Lucros" placeholder="Insira seus lucros aqui!">
+        <input type="button" value=">>>" onclick="clicar()">
+        <div id="lucrosaqui"></div>
+    </div>
+    <div>
+        <label for="">Saídas</label>
+        <input type="number" name="Saídas" id="Saídas" placeholder="Insira seus gastos aqui!">
+        <input type="button" value=">>>" onclick="clicar()">
+        <div id="gastosaqui"></div>
+    </div>
+    <div>
+        <h3>Você tem o total dê:</h3>
+        <div id="total"></div><br>
+        <h3>Para atingir a meta faltam:</h3>
+        <div id="faltam"></div>
+    </div>
+    
+</body>
+</html>

@@ -9,6 +9,8 @@ Desenvolvi um WebApp educativo usando HTML, CSS, Bootstrap e JavaScript, oferece
 🎨 Integração fluída das classes do Bootstrap.<br>
 🤝 Coerência entre as tecnologias utilizadas.<br>
 
+<img src="assets/começo.jpg">
+
 ### Funcionalidades Destacadas:
 
 🎯 Defina sua Meta: Estabeleça objetivos claros para seus projetos.<br>
